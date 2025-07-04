@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.UUID;
 
+//this is patient controller
 @RestController
 @RequestMapping("/patients") //http:localhost:4000/patients
 @Tag(name="Patient",description= "APi for managing patients")
